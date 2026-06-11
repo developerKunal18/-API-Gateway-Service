@@ -1,0 +1,47 @@
+🧠 Why This Is Important
+
+Without an API Gateway:
+Client
+ ├── User Service
+ ├── Order Service
+ ├── Payment Service
+ └── Inventory Service
+
+ With an API Gateway:
+ Client
+   │
+   ▼
+API Gateway
+   ├── User Service
+   ├── Order Service
+   ├── Payment Service
+   └── Inventory Service
+
+   Benefits:
+	•	✅ Centralized routing
+	•	✅ Authentication
+	•	✅ Rate limiting
+	•	✅ Logging
+	•	✅ Service aggregation
+
+👉 Used by:
+	•	Netflix
+	•	Amazon
+	•	Uber
+	•	Airbnb
+
+⸻
+
+🛠 Tech Stack
+	•	Python
+	•	Flask
+	•	Requests
+
+⸻
+
+📂 Project Structure
+api-gateway/
+├── gateway.py
+├── user_service.py
+├── order_service.py
+└── README.md
